@@ -445,6 +445,15 @@ pages:
                     subtype: DONUT
                     general:
                       title: In Package Manager
+                    extraConfiguration: >-
+                      {
+                            "color": [
+                            "#8cd47e",
+                            "#7abd7e",
+                            "#ff6961",
+                            "#f8D66D"
+                            ]
+                      }
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -532,7 +541,7 @@ pages:
                 font-size: large
                 font-weight: bold                
               components:
-                - html: Software details 
+                - html: Details 
 
             - span: 4
               components:
