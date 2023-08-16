@@ -1,6 +1,6 @@
 properties:
-   metricsData: https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/static/data/high_level_metrics.csv
-   statisticsData: https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/static/data/aggregated_stats.csv
+   metricsData: https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/data/high_level_metrics.csv
+   statisticsData: https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/data/aggregated_stats.csv
    bgColor: lightgray
 
 global:
