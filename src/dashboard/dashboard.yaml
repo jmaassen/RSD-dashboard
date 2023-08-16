@@ -448,9 +448,9 @@ pages:
                     extraConfiguration: >-
                       {
                             "color": [
-                            "#8cd47e",
-                            "#7abd7e",
                             "#ff6961",
+                            "#7abd7e",
+                            "#8cd47e",
                             "#f8D66D"
                             ]
                       }
