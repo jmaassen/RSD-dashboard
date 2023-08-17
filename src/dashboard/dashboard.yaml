@@ -391,7 +391,7 @@ pages:
                             ]
                       }
                     general:
-                      title: Repository Type
+                      title: Repository
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -422,7 +422,7 @@ pages:
                             ]
                       }
                     general:
-                      title: License Type
+                      title: License
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -430,36 +430,6 @@ pages:
                           function: EQUALS_TO
                           args:
                             - software_license_type
-                      group:
-                        - columnGroup:
-                            source: Label
-                          functions:
-                            - source: Label
-                            - source: Value
-                              function: SUM
-            - span: 4
-              components:
-                - displayer:
-                    type: PIECHART
-                    subtype: DONUT
-                    general:
-                      title: In Package Manager
-                    extraConfiguration: >-
-                      {
-                            "color": [
-                            "#ff6961",
-                            "#8cd47e",
-                            "#7abd7e",
-                            "#f8D66D"
-                            ]
-                      }
-                    lookup: 
-                      uuid: STATISTICS
-                      filter:
-                        - column: Metric
-                          function: EQUALS_TO
-                          args:
-                            - in_package_manager
                       group:
                         - columnGroup:
                             source: Label
@@ -537,7 +507,38 @@ pages:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: Package Manager Type
+                      title: Package Manager
+                    extraConfiguration: >-
+                      {
+                            "color": [
+                            "#ff6961",
+                            "#8cd47e",
+                            "#7abd7e",
+                            "#f8D66D"
+                            ]
+                      }
+                    lookup: 
+                      uuid: STATISTICS
+                      filter:
+                        - column: Metric
+                          function: EQUALS_TO
+                          args:
+                            - in_package_manager
+                      group:
+                        - columnGroup:
+                            source: Label
+                          functions:
+                            - source: Label
+                            - source: Value
+                              function: SUM
+
+            - span: 4
+              components:
+                - displayer:
+                    type: PIECHART
+                    subtype: DONUT
+                    general:
+                      title: PM Type
                     lookup: 
                       uuid: STATISTICS
                       filter:
