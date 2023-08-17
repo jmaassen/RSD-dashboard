@@ -39,6 +39,11 @@ tasks.withType(Jar) {
     destinationDir = file("$rootDir/lib")
 }
 
+clean {
+    delete 'lib'
+    delete '.gradle'
+}
+
 task copyRuntimeLibs(type: Copy) {
     into "lib"
     from configurations.runtime
