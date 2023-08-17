@@ -17,7 +17,7 @@ global:
           </div>
       chart:
         resizable: true
-        height: 300
+        height: 600
         grid:
           y: false
           x: false
