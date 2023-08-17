@@ -23,10 +23,12 @@ jobs:
         distribution: 'temurin'
         cache: 'gradle'
       run: ./gradlew build --no-daemon
-    
+
+  run:
     - name: Run harvester
       run: /bin/bash run-harvester.sh 
-    
+
+  store:  
     - name: Commit results
       run: | 
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
