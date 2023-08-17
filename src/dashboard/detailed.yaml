@@ -5,6 +5,9 @@ properties:
 
 global:
     settings:
+      axis:
+        x:
+          labels_angle: 45
       align: center
       html:
         html: >-
