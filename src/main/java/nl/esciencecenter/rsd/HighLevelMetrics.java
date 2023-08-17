@@ -16,11 +16,13 @@ public class HighLevelMetrics {
     public int totalCommitActivity = 0;
     public int totalProgrammingLanguages = 0;
     public int totalSoftwareLicenses = 0;
+    public int totalSoftwareMaintained = 0;
 
     public String convertToCSV() {
         StringBuilder b = new StringBuilder("metric name, value\n");
         b.append("total_software_entries, ").append(totalSoftwareEntries).append("\n");
         b.append("total_software_releases, ").append(totalSoftwareReleases).append("\n");
+        b.append("total_software_maintained, ").append(totalSoftwareMaintained).append("\n");
         b.append("total_mentions, ").append(totalMentions).append("\n");
         b.append("total_stars, ").append(totalStars).append("\n");
         b.append("total_forks, ").append(totalForks).append("\n");

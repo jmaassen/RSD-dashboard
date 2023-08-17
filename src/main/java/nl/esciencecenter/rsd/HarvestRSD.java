@@ -184,6 +184,10 @@ public class HarvestRSD {
                 }
             }
 
+            if (label.equals("active development") || label.equals("maintenance only")) {
+                metrics.totalSoftwareMaintained += 1;
+            }
+
             stats.inc("software_maintenance_status", label);
             System.err.println("Lifetime " + start + " - " + end + " " + activityInLastYear + " " + activityInLastTwoYears + " " + label);
         } else {
