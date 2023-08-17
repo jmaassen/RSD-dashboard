@@ -22,8 +22,8 @@ This will retrieve data on software and mentions from the RSD and determine vari
 
 To view the results, push these file to and access the dashboards here:
 
-[dashboard](https://www.dashbuilder.org/kitchensink/?import=https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/src/dashboard/dashboard.yaml)
-[detailed graphs](https://www.dashbuilder.org/kitchensink/?import=https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/src/dashboard/detailed.yaml)
+- [dashboard](https://www.dashbuilder.org/kitchensink/?import=https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/src/dashboard/dashboard.yaml)
+- [detailed graphs](https://www.dashbuilder.org/kitchensink/?import=https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/src/dashboard/detailed.yaml)
 
 
 
