@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"nl.esciencecenter.rsd","l":"AggregatedStatistics"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"nl.esciencecenter.rsd","l":"HarvestRSD"},{"p":"nl.esciencecenter.rsd","l":"HighLevelMetrics"}]
