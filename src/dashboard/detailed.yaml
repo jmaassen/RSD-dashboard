@@ -77,6 +77,15 @@ pages:
                             - source: Value
                               function: SUM
 
+        - columns:
+            - properties:
+                color: black
+                margin-top: 10px
+                margin-bottom: 10px                
+              components:
+                - html: <hr />
+
+        - columns:
             - components:
                 - displayer:
                     type: Barchart
@@ -98,4 +107,12 @@ pages:
                             - source: Label
                             - source: Value
                               function: SUM
+
+        - columns:
+            - properties:
+                color: black
+                margin-top: 10px
+                margin-bottom: 10px                
+              components:
+                - html: <hr />
 

@@ -538,7 +538,6 @@ pages:
                     subtype: DONUT
                     general:
                       title: Package Manager Type
-                      alignTo: 'edge'
                     lookup: 
                       uuid: STATISTICS
                       filter:
