@@ -30,4 +30,5 @@ jobs:
     - name: Cleanup
       run: ./gradlew clean --no-daemon  
     - uses: stefanzweifel/git-auto-commit-action@v4
-    
+      file_pattern: 'data/*
+      
