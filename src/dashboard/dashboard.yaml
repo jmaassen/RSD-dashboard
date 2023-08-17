@@ -324,7 +324,7 @@ pages:
                         general:
                           title: Avg. Software lifetime (years)
                         html:
-                          javascript: document.getElementById(${this}.id + "Icon").className = "fa fa-calender";
+                          javascript: document.getElementById(${this}.id + "Icon").className = "fa fa-calendar";
                         columns:
                           - id: Value
                             pattern: "#"
