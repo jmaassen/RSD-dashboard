@@ -31,6 +31,9 @@ public class HarvestRSD {
     private AggregatedStatistics stats = new AggregatedStatistics();
     private HashSet<String> usedMentions = new HashSet<>();
 
+    private long totalLifeTime = 0;
+    private long totalLifeTimeCounter = 0;
+
     private String get(URI uri) {
         HttpRequest request = HttpRequest.newBuilder()
                 .GET()
@@ -190,6 +193,9 @@ public class HarvestRSD {
 
             stats.inc("software_maintenance_status", label);
             System.err.println("Lifetime " + start + " - " + end + " " + activityInLastYear + " " + activityInLastTwoYears + " " + label);
+
+            totalLifeTime += (lastCommit - firstCommit);
+            totalLifeTimeCounter++;
         } else {
             stats.inc("software_maintenance_status", "unknown");
             System.err.println("Lifetime UNKNOWN");
@@ -209,6 +215,8 @@ public class HarvestRSD {
         } else if (contributors > 20) {
             stats.inc("software_contributors", "huge team (20+)");
         }
+
+        metrics.totalContributors += contributors;
     }
 
     private void processDoi(JsonObject sw) {
@@ -348,6 +356,8 @@ public class HarvestRSD {
 
             processContributors(sw);
         }
+
+        metrics.averageSoftwareLifeTime = (totalLifeTime / (60 * 60 * 24 * 356.0)) / totalLifeTimeCounter;
 
         metrics.totalProgrammingLanguages = stats.countEntries("language_count");
         metrics.totalSoftwareLicenses = stats.countEntries("software_license");

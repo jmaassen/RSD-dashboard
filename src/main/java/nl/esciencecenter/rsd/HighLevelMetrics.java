@@ -1,5 +1,8 @@
 package nl.esciencecenter.rsd;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
 public class HighLevelMetrics {
 
     public int totalSoftwareEntries = 0;
@@ -18,6 +21,8 @@ public class HighLevelMetrics {
     public int totalSoftwareLicenses = 0;
     public int totalSoftwareMaintained = 0;
 
+    public double averageSoftwareLifeTime = 0.0;
+
     public String convertToCSV() {
         StringBuilder b = new StringBuilder("metric name, value\n");
         b.append("total_software_entries, ").append(totalSoftwareEntries).append("\n");
@@ -35,6 +40,10 @@ public class HighLevelMetrics {
         b.append("total_commit_activity, ").append(totalCommitActivity).append("\n");
         b.append("total_programming_languages, ").append(totalProgrammingLanguages).append("\n");
         b.append("total_software_licenses, ").append(totalSoftwareLicenses).append("\n");
+
+        NumberFormat formatter = new DecimalFormat("#0.0");
+        b.append("avg_software_lifetime, ").append(formatter.format(averageSoftwareLifeTime)).append("\n");
+
         return b.toString();
     }
 }
