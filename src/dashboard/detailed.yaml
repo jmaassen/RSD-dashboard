@@ -19,7 +19,7 @@ global:
         resizable: true
         height: 600
         grid:
-          y: false
+          y: true
           x: false
       export:
         png: true
