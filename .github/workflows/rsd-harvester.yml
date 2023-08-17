@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   harvest:
@@ -23,16 +23,11 @@ jobs:
         cache: 'gradle'
     - name: Build harvester
       run: ./gradlew build --no-daemon  
+    - name: Copy libs
+      run: ./gradlew copyRuntimeLibs --no-daemon  
     - name: Run harvester
       run: /bin/bash run-harvester.sh 
-    - name: Commit results
-      run: | 
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add data
-        git commit -m "Add harvested data" -a
-           
-#    - name: Push changes
-#      uses: ad-m/github-push-action@master
-#      with:
-#        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Cleanup
+      run: ./gradlew clean --no-daemon  
+    - uses: stefanzweifel/git-auto-commit-action@v4
+    
