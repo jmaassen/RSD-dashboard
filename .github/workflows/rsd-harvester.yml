@@ -21,6 +21,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: 'gradle'
+    - name: Build harvester
       run: ./gradlew build --no-daemon  
     - name: Run harvester
       run: /bin/bash run-harvester.sh 
