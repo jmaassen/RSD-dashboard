@@ -100,6 +100,28 @@ pages:
                    - displayer:
                         type: METRIC
                         general:
+                          title: Maintained Software
+                        html:
+                          javascript: document.getElementById(${this}.id + "Icon").className = "fa fa-heartbeat";
+                        columns:
+                          - id: Value
+                            pattern: "#"
+                        lookup:
+                            uuid: METRICS
+                            filter:
+                             - column: Metric
+                               function: EQUALS_TO
+                               args:
+                                 - total_software_maintained
+                            group:
+                              - functions:
+                                  - source: value
+
+            - span: 3
+              components:
+                   - displayer:
+                        type: METRIC
+                        general:
                           title: Software Releases
                         html:
                           javascript: document.getElementById(${this}.id + "Icon").className = "fa fa-cubes";
@@ -139,6 +161,7 @@ pages:
                               - functions:
                                   - source: value
 
+        - columns:
             - span: 3
               components:
                    - displayer:
@@ -161,8 +184,6 @@ pages:
                               - functions:
                                   - source: value
 
-
-        - columns:
             - span: 3
               components:
                    - displayer:
@@ -229,6 +250,7 @@ pages:
                               - functions:
                                   - source: value
 
+        - columns:
             - span: 3
               components:
                    - displayer:
@@ -251,7 +273,6 @@ pages:
                               - functions:
                                   - source: value
 
-        - columns:
             - span: 3
               components:
                    - displayer:
