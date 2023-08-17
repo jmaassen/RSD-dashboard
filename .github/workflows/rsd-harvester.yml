@@ -1,3 +1,4 @@
+# This is a automated harvester
 name: RSDHarvester
 
 on:  
@@ -10,10 +11,8 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  harvest:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Build harvester
@@ -22,13 +21,9 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: 'gradle'
-      run: ./gradlew build --no-daemon
-
-  run:
+      run: ./gradlew build --no-daemon  
     - name: Run harvester
       run: /bin/bash run-harvester.sh 
-
-  store:  
     - name: Commit results
       run: | 
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
