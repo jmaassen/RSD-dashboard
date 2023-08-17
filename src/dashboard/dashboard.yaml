@@ -385,9 +385,9 @@ pages:
                     extraConfiguration: >-
                       {
                             "color": [
-                            "#ff6961", 
+                            "#8cd47e", 
                             "#f8D66D",
-                            "#8cd47e",
+                            "#ff6961",
                             "#7abd7e"
                             ]
                       }
@@ -416,9 +416,9 @@ pages:
                     extraConfiguration: >-
                       {
                             "color": [
+                            "#8cd47e", 
+                            "#f8D66D",
                             "#ff6961",
-                            "#f8D66D", 
-                            "#8cd47e",
                             "#7abd7e"
                             ]
                       }
@@ -448,8 +448,8 @@ pages:
                     extraConfiguration: >-
                       {
                             "color": [
-                            "#8cd47e",
                             "#ff6961",
+                            "#8cd47e",
                             "#7abd7e",
                             "#f8D66D"
                             ]
@@ -480,10 +480,10 @@ pages:
                     extraConfiguration: >-
                       {
                             "color": [
-                            "#8cd47e",
-                            "#7abd7e",
+                            "#f8D66D",
                             "#ff6961",
-                            "#f8D66D"
+                            "#7abd7e",
+                            "#8cd47e"
                             ]
                       }
                     lookup: 
@@ -511,10 +511,10 @@ pages:
                     extraConfiguration: >-
                       {
                             "color": [
-                            "#f8D66D",
-                            "#7abd7e",
+                            "#8cd47e",
                             "#ff6961",
-                            "#8cd47e"
+                            "#7abd7e",
+                            "#f8D66D"
                             ]
                       }
                     lookup: 
@@ -532,49 +532,6 @@ pages:
                             - source: Value
                               function: SUM
 
-
-        - columns:
-            - properties:
-                text-align: center
-                margin-top: 50px
-                margin-bottom: 10px
-                font-size: large
-                font-weight: bold                
-              components:
-                - html: Details 
-
-            - span: 4
-              components:
-                - displayer:
-                    type: PIECHART
-                    subtype: DONUT
-                    general:
-                      title: Languages
-                    extraConfiguration: >-
-                      {
-                            "color": [
-                            "#8cd47e",
-                            "#7abd7e",
-                            "#ff6961",
-                            "#f8D66D"
-                            ]
-                      }
-                    lookup: 
-                      uuid: STATISTICS
-                      filter:
-                        - column: Metric
-                          function: EQUALS_TO
-                          args:
-                            - language_count_abbrev
-                      group:
-                        - columnGroup:
-                            source: Label
-                          functions:
-                            - source: Label
-                            - source: Value
-                              function: SUM
-
-
             - span: 4
               components:
                 - displayer:
@@ -582,15 +539,6 @@ pages:
                     subtype: DONUT
                     general:
                       title: Package Manager Type
-                    extraConfiguration: >-
-                      {
-                            "color": [
-                            "#8cd47e",
-                            "#7abd7e",
-                            "#ff6961",
-                            "#f8D66D"
-                            ]
-                      }
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -598,28 +546,6 @@ pages:
                           function: EQUALS_TO
                           args:
                             - package_manager_type
-                      group:
-                        - columnGroup:
-                            source: Label
-                          functions:
-                            - source: Label
-                            - source: Value
-                              function: SUM
-
-            - span: 4
-              components:
-                - displayer:
-                    type: PIECHART
-                    subtype: DONUT
-                    general:
-                      title: Mention Types
-                    lookup: 
-                      uuid: STATISTICS
-                      filter:
-                        - column: Metric
-                          function: EQUALS_TO
-                          args:
-                            - mention_types
                       group:
                         - columnGroup:
                             source: Label
