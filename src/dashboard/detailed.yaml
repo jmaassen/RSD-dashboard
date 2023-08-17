@@ -1,0 +1,96 @@
+properties:
+   metricsData: https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/data/high_level_metrics.csv
+   statisticsData: https://raw.githubusercontent.com/jmaassen/RSD-dashboard/main/data/aggregated_stats.csv
+   bgColor: lightgray
+
+global:
+    settings:
+      align: center
+      html:
+        html: >-
+          <div id="${this}" class="card-pf card-pf-aggregate-status" style="background-color: ${bgColor}; width: 90%; height: 100px; margin: 10px; border-radius: 10px">
+            <h2 style="font-weight: 600; font-size: x-large" id="${this}Value">${value}</h2>
+            <p style="font-weight: 400" id="${this}Title"><em id="${this}Icon" class=""></em> ${title}</p>
+          </div>
+      chart:
+        resizable: true
+        height: 300
+        grid:
+          y: false
+          x: false
+      export:
+        png: true
+
+datasets:
+    - uuid: METRICS      
+      url: ${metricsData}
+      columns: 
+        - id: Metric
+          type: LABEL
+        - id: Value
+          type: Label
+
+    - uuid: STATISTICS      
+      url: ${statisticsData}
+      columns: 
+        - id: Metric
+          type: LABEL
+        - id: Label
+          type: LABEL
+        - id: Value
+          type: Label
+
+pages:
+    - rows:
+        - columns:
+            - properties:
+                background-color: lightgray
+                color: black
+                font-weight: bolder
+                text-align: center                
+                font-size: xx-large                               
+              components:
+                - html: Netherlands eScience Center RSD Software Details
+
+            - span: 9
+              components:
+                - displayer:
+                    type: Barchart
+                    general:
+                      title: Languages
+                    lookup: 
+                      uuid: STATISTICS
+                      filter:
+                        - column: Metric
+                          function: EQUALS_TO
+                          args:
+                            - language_count
+                      group:
+                        - columnGroup:
+                            source: Label
+                          functions:
+                            - source: Label
+                            - source: Value
+                              function: SUM
+
+            - span: 9
+              components:
+                - displayer:
+                    type: Barchart
+                    general:
+                      title: Mention Types
+                    lookup: 
+                      uuid: STATISTICS
+                      filter:
+                        - column: Metric
+                          function: EQUALS_TO
+                          args:
+                            - mention_types
+                      group:
+                        - columnGroup:
+                            source: Label
+                          functions:
+                            - source: Label
+                            - source: Value
+                              function: SUM
+
