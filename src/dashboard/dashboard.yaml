@@ -314,7 +314,7 @@ pages:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: Is Citeable
+                      title: Citeable
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -336,7 +336,7 @@ pages:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: Has releases
+                      title: Releases
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -358,7 +358,7 @@ pages:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: Has mentions
+                      title: Mentions
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -438,14 +438,13 @@ pages:
                             - source: Value
                               function: SUM
 
-        - columns:
             - span: 4
               components:
                 - displayer:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: Team size
+                      title: Contributors
                     extraConfiguration: >-
                       {
                             "color": [
@@ -470,6 +469,7 @@ pages:
                             - source: Value
                               function: SUM
 
+        - columns:
             - span: 4
               components:
                 - displayer:
@@ -507,7 +507,7 @@ pages:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: Package Manager
+                      title: Packaged
                     extraConfiguration: >-
                       {
                             "color": [
@@ -538,7 +538,7 @@ pages:
                     type: PIECHART
                     subtype: DONUT
                     general:
-                      title: PM Type
+                      title: Package Type
                     lookup: 
                       uuid: STATISTICS
                       filter:
