@@ -55,7 +55,8 @@ public class AggregatedStatistics {
             // We sort the entries of the hashmap before printing.
             ArrayList<Entry<String, Integer>> list = getSorted(name);
 
-            for (Entry<String, Integer> e : list) {
+            for (int i = list.size() - 1; i >= 0; i--) {
+                Entry<String, Integer> e = list.get(i);
                 String label = e.getKey();
                 int value = e.getValue();
                 b.append(name).append(", ").append(label).append(", ").append(value).append("\n");
