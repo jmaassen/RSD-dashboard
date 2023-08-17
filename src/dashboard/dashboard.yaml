@@ -322,7 +322,7 @@ pages:
                    - displayer:
                         type: METRIC
                         general:
-                          title: Avg. Software lifetime
+                          title: Avg. Software lifetime (years)
                         html:
                           javascript: document.getElementById(${this}.id + "Icon").className = "fa fa-calender";
                         columns:
