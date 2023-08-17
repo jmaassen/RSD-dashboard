@@ -1,158 +1,158 @@
 name, label, value
-mention_types, workshop, 1
-mention_types, book, 1
-mention_types, magazineArticle, 2
-mention_types, newspaperArticle, 4
-mention_types, report, 4
-mention_types, bookSection, 6
-mention_types, thesis, 6
-mention_types, dataset, 9
-mention_types, poster, 17
-mention_types, highlight, 26
-mention_types, videoRecording, 27
-mention_types, computerProgram, 28
-mention_types, blogPost, 29
-mention_types, conferencePaper, 36
-mention_types, webpage, 38
-mention_types, other, 47
-mention_types, presentation, 135
 mention_types, journalArticle, 263
-software_contributors, huge team (20+), 3
-software_contributors, large team (6-20), 37
-software_contributors, single contributor, 56
+mention_types, presentation, 135
+mention_types, other, 47
+mention_types, webpage, 38
+mention_types, conferencePaper, 36
+mention_types, blogPost, 29
+mention_types, computerProgram, 28
+mention_types, videoRecording, 27
+mention_types, highlight, 26
+mention_types, poster, 17
+mention_types, dataset, 9
+mention_types, thesis, 6
+mention_types, bookSection, 6
+mention_types, report, 4
+mention_types, newspaperArticle, 4
+mention_types, magazineArticle, 2
+mention_types, book, 1
+mention_types, workshop, 1
 software_contributors, small team (2-5), 138
-package_manager_type, npm, 1
-package_manager_type, pypi, 9
+software_contributors, single contributor, 56
+software_contributors, large team (6-20), 37
+software_contributors, huge team (20+), 3
 package_manager_type, dockerhub, 17
-software_mentions, no mentions, 117
+package_manager_type, pypi, 9
+package_manager_type, npm, 1
 software_mentions, has mentions, 117
-language_count, Jasmin, 1
-language_count, Go, 1
-language_count, Verilog, 1
-language_count, Haskell, 1
-language_count, Gnuplot, 1
-language_count, Thrift, 1
-language_count, Clojure, 1
-language_count, PowerShell, 1
-language_count, Yacc, 1
-language_count, SWIG, 1
-language_count, M4Sugar, 1
-language_count, QML, 1
-language_count, OpenEdge ABL, 1
-language_count, Scilab, 1
-language_count, Starlark, 1
-language_count, Meson, 1
-language_count, AMPL, 1
-language_count, GAP, 1
-language_count, Tcl, 1
-language_count, Rebol, 1
-language_count, C#, 1
-language_count, Singularity, 1
-language_count, QMake, 1
-language_count, EJS, 1
-language_count, Stylus, 1
-language_count, Forth, 1
-language_count, xBase, 1
-language_count, Awk, 1
-language_count, Emacs Lisp, 1
-language_count, Brainfuck, 1
-language_count, Pug, 1
-language_count, Scala, 1
-language_count, AngelScript, 1
-language_count, Prolog, 1
-language_count, XSLT, 1
-language_count, q, 1
-language_count, Euphoria, 1
-language_count, Nix, 1
-language_count, Mercury, 1
-language_count, Lex, 1
-language_count, M4, 2
-language_count, API Blueprint, 2
-language_count, IDL, 2
-language_count, SCSS, 2
-language_count, Pascal, 2
-language_count, Jinja, 2
-language_count, HCL, 2
-language_count, Gherkin, 2
-language_count, NCL, 2
-language_count, M, 2
-language_count, Mathematica, 2
-language_count, Cython, 2
-language_count, GLSL, 2
-language_count, Julia, 2
-language_count, SourcePawn, 2
-language_count, Rust, 3
-language_count, Lua, 3
-language_count, PHP, 3
-language_count, NASL, 3
-language_count, Dhall, 4
-language_count, PLpgSQL, 4
-language_count, Smarty, 5
-language_count, Mako, 5
-language_count, Vue, 5
-language_count, Roff, 5
-language_count, Cuda, 6
-language_count, Fortran, 9
-language_count, Perl, 9
-language_count, Common Workflow Language, 9
-language_count, MATLAB, 10
-language_count, Batchfile, 13
-language_count, R, 14
-language_count, CMake, 15
-language_count, C, 16
-language_count, TeX, 19
-language_count, TypeScript, 21
-language_count, C++, 23
-language_count, Java, 31
-language_count, Jupyter Notebook, 41
-language_count, Makefile, 43
-language_count, JavaScript, 46
-language_count, CSS, 47
-language_count, HTML, 52
-language_count, Dockerfile, 52
-language_count, Shell, 97
+software_mentions, no mentions, 117
 language_count, Python, 165
-mention_citable, no, 296
+language_count, Shell, 97
+language_count, Dockerfile, 52
+language_count, HTML, 52
+language_count, CSS, 47
+language_count, JavaScript, 46
+language_count, Makefile, 43
+language_count, Jupyter Notebook, 41
+language_count, Java, 31
+language_count, C++, 23
+language_count, TypeScript, 21
+language_count, TeX, 19
+language_count, C, 16
+language_count, CMake, 15
+language_count, R, 14
+language_count, Batchfile, 13
+language_count, MATLAB, 10
+language_count, Common Workflow Language, 9
+language_count, Perl, 9
+language_count, Fortran, 9
+language_count, Cuda, 6
+language_count, Roff, 5
+language_count, Vue, 5
+language_count, Mako, 5
+language_count, Smarty, 5
+language_count, PLpgSQL, 4
+language_count, Dhall, 4
+language_count, NASL, 3
+language_count, PHP, 3
+language_count, Lua, 3
+language_count, Rust, 3
+language_count, SourcePawn, 2
+language_count, Julia, 2
+language_count, GLSL, 2
+language_count, Cython, 2
+language_count, Mathematica, 2
+language_count, M, 2
+language_count, NCL, 2
+language_count, Gherkin, 2
+language_count, HCL, 2
+language_count, Jinja, 2
+language_count, Pascal, 2
+language_count, SCSS, 2
+language_count, IDL, 2
+language_count, API Blueprint, 2
+language_count, M4, 2
+language_count, Lex, 1
+language_count, Mercury, 1
+language_count, Nix, 1
+language_count, Euphoria, 1
+language_count, q, 1
+language_count, XSLT, 1
+language_count, Prolog, 1
+language_count, AngelScript, 1
+language_count, Scala, 1
+language_count, Pug, 1
+language_count, Brainfuck, 1
+language_count, Emacs Lisp, 1
+language_count, Awk, 1
+language_count, xBase, 1
+language_count, Forth, 1
+language_count, Stylus, 1
+language_count, EJS, 1
+language_count, QMake, 1
+language_count, Singularity, 1
+language_count, C#, 1
+language_count, Rebol, 1
+language_count, Tcl, 1
+language_count, GAP, 1
+language_count, AMPL, 1
+language_count, Meson, 1
+language_count, Starlark, 1
+language_count, Scilab, 1
+language_count, OpenEdge ABL, 1
+language_count, QML, 1
+language_count, M4Sugar, 1
+language_count, SWIG, 1
+language_count, Yacc, 1
+language_count, PowerShell, 1
+language_count, Clojure, 1
+language_count, Thrift, 1
+language_count, Gnuplot, 1
+language_count, Haskell, 1
+language_count, Verilog, 1
+language_count, Go, 1
+language_count, Jasmin, 1
 mention_citable, yes, 383
-software_repository, none, 1
-software_repository, gitlab, 2
+mention_citable, no, 296
 software_repository, github, 231
-software_doi, not citable, 31
+software_repository, gitlab, 2
+software_repository, none, 1
 software_doi, is citable, 203
-in_package_manager, yes, 11
+software_doi, not citable, 31
 in_package_manager, no, 223
-language_count_abbrev, C, 16
-language_count_abbrev, TypeScript, 21
-language_count_abbrev, C++, 23
-language_count_abbrev, Java, 31
-language_count_abbrev, Jupyter Notebook, 41
-language_count_abbrev, JavaScript, 46
-language_count_abbrev, Shell, 97
-language_count_abbrev, Python, 165
+in_package_manager, yes, 11
 language_count_abbrev, other, 408
-software_releases, no releases, 43
+language_count_abbrev, Python, 165
+language_count_abbrev, Shell, 97
+language_count_abbrev, JavaScript, 46
+language_count_abbrev, Jupyter Notebook, 41
+language_count_abbrev, Java, 31
+language_count_abbrev, C++, 23
+language_count_abbrev, TypeScript, 21
+language_count_abbrev, C, 16
 software_releases, has releases, 191
-software_maintenance_status, unknown, 5
-software_maintenance_status, maintenance only, 44
-software_maintenance_status, not maintained, 91
+software_releases, no releases, 43
 software_maintenance_status, active development, 94
-software_license_type, other, 5
-software_license_type, copyleft, 23
+software_maintenance_status, not maintained, 91
+software_maintenance_status, maintenance only, 44
+software_maintenance_status, unknown, 5
 software_license_type, permissive, 213
-software_license, LGPL-2.0, 1
-software_license, Apache 2.0, 1
-software_license, BSD-2-Clause, 1
-software_license, none, 1
-software_license, GPL-2.0-only, 1
-software_license, BSD-3-Clause-Attribution, 1
-software_license, AGPL-3.0-or-later, 2
-software_license, BSD-3-Clause, 2
-software_license, AGPL-3.0-only, 2
-software_license, GPL-2.0, 2
-software_license, GPL-3.0-only, 2
-software_license, Open Access, 2
-software_license, MIT, 2
-software_license, LGPL-3.0, 3
-software_license, CC-BY-4.0, 3
-software_license, GPL-3.0, 10
+software_license_type, copyleft, 23
+software_license_type, other, 5
 software_license, Apache-2.0, 206
+software_license, GPL-3.0, 10
+software_license, CC-BY-4.0, 3
+software_license, LGPL-3.0, 3
+software_license, MIT, 2
+software_license, Open Access, 2
+software_license, GPL-3.0-only, 2
+software_license, GPL-2.0, 2
+software_license, AGPL-3.0-only, 2
+software_license, BSD-3-Clause, 2
+software_license, AGPL-3.0-or-later, 2
+software_license, BSD-3-Clause-Attribution, 1
+software_license, GPL-2.0-only, 1
+software_license, none, 1
+software_license, BSD-2-Clause, 1
+software_license, Apache 2.0, 1
+software_license, LGPL-2.0, 1
