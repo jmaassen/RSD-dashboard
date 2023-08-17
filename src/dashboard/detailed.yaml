@@ -61,6 +61,8 @@ pages:
                     type: Barchart
                     general:
                       title: Languages
+                    chart:
+                      resizable: true
                     lookup: 
                       uuid: STATISTICS
                       filter:
@@ -82,6 +84,8 @@ pages:
                     type: Barchart
                     general:
                       title: Mention Types
+                    chart:
+                      resizable: true
                     lookup: 
                       uuid: STATISTICS
                       filter:
