@@ -15,8 +15,8 @@ global:
       extraConfiguration: >-
         {
             "color": [
-             "#ff6961",
              "#8cd47e",
+             "#ff6961",
              "#7abd7e",
              "#f8D66D"
              ]
