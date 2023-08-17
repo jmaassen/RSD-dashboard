@@ -55,8 +55,7 @@ pages:
               components:
                 - html: Netherlands eScience Center RSD Software Details
 
-            - span: 9
-              components:
+            - components:
                 - displayer:
                     type: Barchart
                     general:
@@ -78,8 +77,7 @@ pages:
                             - source: Value
                               function: SUM
 
-            - span: 9
-              components:
+            - components:
                 - displayer:
                     type: Barchart
                     general:
