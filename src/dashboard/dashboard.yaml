@@ -316,7 +316,28 @@ pages:
                             group:
                               - functions:
                                   - source: value
-                                  
+
+            - span: 3
+              components:
+                   - displayer:
+                        type: METRIC
+                        general:
+                          title: Avg. Software lifetime
+                        html:
+                          javascript: document.getElementById(${this}.id + "Icon").className = "fa fa-calender";
+                        columns:
+                          - id: Value
+                            pattern: "#"
+                        lookup:
+                            uuid: METRICS
+                            filter:
+                             - column: Metric
+                               function: EQUALS_TO
+                               args:
+                                 - avg_software_lifetime
+                            group:
+                              - functions:
+                                  - source: value
 
         - columns:
             - properties:
