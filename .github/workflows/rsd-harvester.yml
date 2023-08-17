@@ -28,11 +28,11 @@ jobs:
       run: /bin/bash run-harvester.sh 
     
     - name: Commit results
-        run: | 
-           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-           git config --local user.name "github-actions[bot]"
-           git add data
-           git commit -m "Add harvested data" -a
+      run: | 
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data
+        git commit -m "Add harvested data" -a
            
     - name: Push changes
         uses: ad-m/github-push-action@master
