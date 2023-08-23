@@ -18,14 +18,14 @@ mention_types, magazineArticle, 2
 mention_types, book, 1
 mention_types, workshop, 1
 software_contributors, small team (2-5), 138
-software_contributors, single contributor, 56
+software_contributors, single contributor, 57
 software_contributors, large team (6-20), 37
 software_contributors, huge team (20+), 3
 package_manager_type, dockerhub, 17
 package_manager_type, pypi, 9
 package_manager_type, npm, 1
+software_mentions, no mentions, 118
 software_mentions, has mentions, 117
-software_mentions, no mentions, 117
 language_count, Python, 165
 language_count, Shell, 97
 language_count, Dockerfile, 52
@@ -114,12 +114,12 @@ language_count, Go, 1
 language_count, Jasmin, 1
 mention_citable, yes, 383
 mention_citable, no, 296
-software_repository, github, 231
+software_repository, github, 232
 software_repository, gitlab, 2
 software_repository, none, 1
 software_doi, is citable, 203
-software_doi, not citable, 31
-in_package_manager, no, 223
+software_doi, not citable, 32
+in_package_manager, no, 224
 in_package_manager, yes, 11
 language_count_abbrev, other, 408
 language_count_abbrev, Python, 165
@@ -131,11 +131,11 @@ language_count_abbrev, C++, 23
 language_count_abbrev, TypeScript, 21
 language_count_abbrev, C, 16
 software_releases, has releases, 191
-software_releases, no releases, 43
+software_releases, no releases, 44
 software_maintenance_status, active development, 93
 software_maintenance_status, not maintained, 91
 software_maintenance_status, maintenance only, 45
-software_maintenance_status, unknown, 5
+software_maintenance_status, unknown, 6
 software_license_type, permissive, 213
 software_license_type, copyleft, 23
 software_license_type, other, 5
@@ -146,13 +146,13 @@ software_license, LGPL-3.0, 3
 software_license, MIT, 2
 software_license, Open Access, 2
 software_license, GPL-3.0-only, 2
+software_license, none, 2
 software_license, GPL-2.0, 2
 software_license, AGPL-3.0-only, 2
 software_license, BSD-3-Clause, 2
 software_license, AGPL-3.0-or-later, 2
 software_license, BSD-3-Clause-Attribution, 1
 software_license, GPL-2.0-only, 1
-software_license, none, 1
 software_license, BSD-2-Clause, 1
 software_license, Apache 2.0, 1
 software_license, LGPL-2.0, 1
