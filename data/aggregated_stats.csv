@@ -54,13 +54,13 @@ language_count, Smarty, 5
 language_count, PLpgSQL, 4
 language_count, Dhall, 4
 language_count, NASL, 3
+language_count, Cython, 3
 language_count, PHP, 3
 language_count, Lua, 3
 language_count, Rust, 3
 language_count, SourcePawn, 2
 language_count, Julia, 2
 language_count, GLSL, 2
-language_count, Cython, 2
 language_count, Mathematica, 2
 language_count, M, 2
 language_count, NCL, 2
@@ -121,7 +121,7 @@ software_doi, is citable, 204
 software_doi, not citable, 31
 in_package_manager, no, 224
 in_package_manager, yes, 11
-language_count_abbrev, other, 408
+language_count_abbrev, other, 409
 language_count_abbrev, Python, 165
 language_count_abbrev, Shell, 97
 language_count_abbrev, JavaScript, 46
@@ -133,8 +133,8 @@ language_count_abbrev, C, 16
 software_releases, has releases, 192
 software_releases, no releases, 43
 software_maintenance_status, active development, 94
-software_maintenance_status, not maintained, 91
-software_maintenance_status, maintenance only, 45
+software_maintenance_status, not maintained, 90
+software_maintenance_status, maintenance only, 46
 software_maintenance_status, unknown, 5
 software_license_type, permissive, 213
 software_license_type, copyleft, 23
