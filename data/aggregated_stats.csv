@@ -117,8 +117,8 @@ mention_citable, no, 296
 software_repository, github, 232
 software_repository, gitlab, 2
 software_repository, none, 1
-software_doi, is citable, 204
-software_doi, not citable, 31
+software_doi, is citable, 205
+software_doi, not citable, 30
 in_package_manager, no, 224
 in_package_manager, yes, 11
 language_count_abbrev, other, 409
@@ -130,11 +130,11 @@ language_count_abbrev, Java, 31
 language_count_abbrev, C++, 23
 language_count_abbrev, TypeScript, 21
 language_count_abbrev, C, 16
-software_releases, has releases, 192
-software_releases, no releases, 43
-software_maintenance_status, active development, 94
+software_releases, has releases, 193
+software_releases, no releases, 42
+software_maintenance_status, active development, 93
 software_maintenance_status, not maintained, 90
-software_maintenance_status, maintenance only, 46
+software_maintenance_status, maintenance only, 47
 software_maintenance_status, unknown, 5
 software_license_type, permissive, 213
 software_license_type, copyleft, 23
