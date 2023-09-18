@@ -213,7 +213,7 @@ public class HarvestRSD {
         }
 
         if (contributors == 0) {
-            stats.inc("software_contributors", "no contributor");
+            stats.inc("software_contributors", "unknown");
         } else if (contributors == 1) {
             stats.inc("software_contributors", "single contributor");
         } else if (contributors > 1 && contributors <= 5) {
