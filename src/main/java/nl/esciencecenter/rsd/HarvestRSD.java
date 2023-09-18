@@ -204,9 +204,17 @@ public class HarvestRSD {
 
     private void processContributors(JsonObject sw) {
 
-        int contributors = sw.get("contributor_cnt").getAsInt();
+        int contributors = 0;
 
-        if (contributors == 1) {
+        JsonElement e = sw.get("contributor_cnt");
+
+        if (!e.isJsonNull()) {
+            contributors = e.getAsInt();
+        }
+
+        if (contributors == 0) {
+            stats.inc("software_contributors", "no contributor");
+        } else if (contributors == 1) {
             stats.inc("software_contributors", "single contributor");
         } else if (contributors > 1 && contributors <= 5) {
             stats.inc("software_contributors", "small team (2-5)");
