@@ -6,8 +6,8 @@ mention_types, webpage, 38
 mention_types, conferencePaper, 36
 mention_types, blogPost, 29
 mention_types, computerProgram, 28
+mention_types, highlight, 27
 mention_types, videoRecording, 27
-mention_types, highlight, 26
 mention_types, poster, 17
 mention_types, dataset, 9
 mention_types, thesis, 6
@@ -22,9 +22,10 @@ software_contributors, single contributor, 57
 software_contributors, large team (6-20), 37
 software_contributors, huge team (20+), 3
 software_contributors, unknown, 1
-package_manager_type, dockerhub, 17
-package_manager_type, pypi, 13
+package_manager_type, dockerhub, 18
+package_manager_type, pypi, 14
 package_manager_type, npm, 1
+package_manager_type, anaconda, 1
 package_manager_type, cran, 1
 software_mentions, no mentions, 119
 software_mentions, has mentions, 117
@@ -115,14 +116,14 @@ language_count, Verilog, 1
 language_count, Go, 1
 language_count, Jasmin, 1
 mention_citable, yes, 383
-mention_citable, no, 296
+mention_citable, no, 297
 software_repository, github, 233
 software_repository, gitlab, 2
 software_repository, none, 1
 software_doi, is citable, 205
 software_doi, not citable, 31
-in_package_manager, no, 220
-in_package_manager, yes, 16
+in_package_manager, no, 219
+in_package_manager, yes, 17
 language_count_abbrev, other, 408
 language_count_abbrev, Python, 166
 language_count_abbrev, Shell, 98
