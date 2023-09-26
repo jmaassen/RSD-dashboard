@@ -32,7 +32,7 @@ software_mentions, has mentions, 117
 language_count, Python, 167
 language_count, Shell, 99
 language_count, Dockerfile, 52
-language_count, HTML, 52
+language_count, HTML, 51
 language_count, CSS, 47
 language_count, JavaScript, 46
 language_count, Makefile, 43
@@ -124,7 +124,7 @@ software_doi, is citable, 205
 software_doi, not citable, 32
 in_package_manager, no, 220
 in_package_manager, yes, 17
-language_count_abbrev, other, 414
+language_count_abbrev, other, 413
 language_count_abbrev, Python, 167
 language_count_abbrev, Shell, 99
 language_count_abbrev, JavaScript, 46
