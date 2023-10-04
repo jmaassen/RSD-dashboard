@@ -17,17 +17,17 @@ mention_types, newspaperArticle, 4
 mention_types, magazineArticle, 1
 mention_types, book, 1
 mention_types, workshop, 1
-software_contributors, small team (2-5), 142
+software_contributors, small team (2-5), 143
 software_contributors, single contributor, 58
 software_contributors, large team (6-20), 36
 software_contributors, huge team (20+), 3
 software_contributors, unknown, 1
 package_manager_type, dockerhub, 18
-package_manager_type, pypi, 16
+package_manager_type, pypi, 17
 package_manager_type, npm, 1
 package_manager_type, anaconda, 1
 package_manager_type, cran, 1
-software_mentions, no mentions, 124
+software_mentions, no mentions, 125
 software_mentions, has mentions, 116
 language_count, Python, 170
 language_count, Shell, 99
@@ -118,12 +118,12 @@ language_count, Jasmin, 1
 mention_citable, yes, 374
 mention_citable, no, 285
 software_repository, github, 237
+software_repository, none, 2
 software_repository, gitlab, 2
-software_repository, none, 1
-software_doi, is citable, 205
+software_doi, is citable, 206
 software_doi, not citable, 35
 in_package_manager, no, 221
-in_package_manager, yes, 19
+in_package_manager, yes, 20
 language_count_abbrev, other, 410
 language_count_abbrev, Python, 170
 language_count_abbrev, Shell, 99
@@ -133,16 +133,16 @@ language_count_abbrev, Java, 31
 language_count_abbrev, C++, 23
 language_count_abbrev, TypeScript, 20
 language_count_abbrev, C, 16
-software_releases, has releases, 193
+software_releases, has releases, 194
 software_releases, no releases, 47
 software_maintenance_status, active development, 97
 software_maintenance_status, not maintained, 90
 software_maintenance_status, maintenance only, 46
-software_maintenance_status, unknown, 7
-software_license_type, permissive, 217
+software_maintenance_status, unknown, 8
+software_license_type, permissive, 218
 software_license_type, copyleft, 23
 software_license_type, other, 6
-software_license, Apache-2.0, 210
+software_license, Apache-2.0, 211
 software_license, GPL-3.0, 10
 software_license, CC-BY-4.0, 3
 software_license, LGPL-3.0, 3
