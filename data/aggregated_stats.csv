@@ -1,34 +1,35 @@
 name, label, value
-mention_types, journalArticle, 261
-mention_types, presentation, 130
-mention_types, other, 47
+mention_types, journalArticle, 271
+mention_types, presentation, 131
+mention_types, other, 48
 mention_types, webpage, 38
-mention_types, conferencePaper, 33
-mention_types, computerProgram, 28
+mention_types, conferencePaper, 35
+mention_types, computerProgram, 29
 mention_types, blogPost, 26
 mention_types, highlight, 25
-mention_types, videoRecording, 23
+mention_types, videoRecording, 24
 mention_types, poster, 16
 mention_types, dataset, 9
-mention_types, thesis, 6
+mention_types, thesis, 7
 mention_types, bookSection, 6
 mention_types, report, 4
 mention_types, newspaperArticle, 4
 mention_types, magazineArticle, 1
 mention_types, book, 1
 mention_types, workshop, 1
-software_contributors, small team (2-5), 143
+software_contributors, small team (2-5), 144
 software_contributors, single contributor, 58
 software_contributors, large team (6-20), 36
 software_contributors, huge team (20+), 3
 software_contributors, unknown, 1
+package_manager_type, pypi, 18
 package_manager_type, dockerhub, 18
-package_manager_type, pypi, 17
 package_manager_type, npm, 1
 package_manager_type, anaconda, 1
+package_manager_type, maven, 1
 package_manager_type, cran, 1
 software_mentions, no mentions, 125
-software_mentions, has mentions, 116
+software_mentions, has mentions, 117
 language_count, Python, 170
 language_count, Shell, 99
 language_count, Dockerfile, 52
@@ -37,9 +38,9 @@ language_count, CSS, 46
 language_count, JavaScript, 45
 language_count, Jupyter Notebook, 45
 language_count, Makefile, 43
-language_count, Java, 31
+language_count, Java, 32
 language_count, C++, 23
-language_count, TeX, 20
+language_count, TeX, 21
 language_count, TypeScript, 20
 language_count, C, 16
 language_count, CMake, 15
@@ -99,6 +100,7 @@ language_count, Tcl, 1
 language_count, GAP, 1
 language_count, AMPL, 1
 language_count, Meson, 1
+language_count, ANTLR, 1
 language_count, Starlark, 1
 language_count, Scilab, 1
 language_count, OpenEdge ABL, 1
@@ -115,39 +117,39 @@ language_count, Verilog, 1
 language_count, SCSS, 1
 language_count, Go, 1
 language_count, Jasmin, 1
-mention_citable, yes, 374
-mention_citable, no, 285
-software_repository, github, 237
+mention_citable, yes, 386
+mention_citable, no, 290
+software_repository, github, 238
 software_repository, none, 2
 software_repository, gitlab, 2
-software_doi, is citable, 206
+software_doi, is citable, 207
 software_doi, not citable, 35
-in_package_manager, no, 221
-in_package_manager, yes, 20
-language_count_abbrev, other, 410
+in_package_manager, no, 220
+in_package_manager, yes, 22
+language_count_abbrev, other, 412
 language_count_abbrev, Python, 170
 language_count_abbrev, Shell, 99
 language_count_abbrev, Jupyter Notebook, 45
 language_count_abbrev, JavaScript, 45
-language_count_abbrev, Java, 31
+language_count_abbrev, Java, 32
 language_count_abbrev, C++, 23
 language_count_abbrev, TypeScript, 20
 language_count_abbrev, C, 16
-software_releases, has releases, 194
+software_releases, has releases, 195
 software_releases, no releases, 47
-software_maintenance_status, active development, 97
+software_maintenance_status, active development, 98
 software_maintenance_status, not maintained, 90
 software_maintenance_status, maintenance only, 46
 software_maintenance_status, unknown, 8
-software_license_type, permissive, 218
+software_license_type, permissive, 219
 software_license_type, copyleft, 23
-software_license_type, other, 6
-software_license, Apache-2.0, 211
+software_license_type, other, 7
+software_license, Apache-2.0, 212
 software_license, GPL-3.0, 10
+software_license, Open Access, 3
 software_license, CC-BY-4.0, 3
 software_license, LGPL-3.0, 3
 software_license, MIT, 2
-software_license, Open Access, 2
 software_license, GPL-3.0-only, 2
 software_license, none, 2
 software_license, GPL-2.0, 2
