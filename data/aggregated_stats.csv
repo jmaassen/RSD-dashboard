@@ -17,26 +17,27 @@ mention_types, newspaperArticle, 4
 mention_types, magazineArticle, 1
 mention_types, book, 1
 mention_types, workshop, 1
-software_contributors, small team (2-5), 145
+software_contributors, small team (2-5), 150
 software_contributors, single contributor, 58
 software_contributors, large team (6-20), 36
 software_contributors, huge team (20+), 3
 software_contributors, unknown, 1
-package_manager_type, pypi, 19
+package_manager_type, pypi, 24
 package_manager_type, dockerhub, 18
 package_manager_type, npm, 1
 package_manager_type, anaconda, 1
 package_manager_type, maven, 1
 package_manager_type, cran, 1
-software_mentions, no mentions, 126
+package_manager_type, other, 1
+software_mentions, no mentions, 131
 software_mentions, has mentions, 117
-language_count, Python, 171
-language_count, Shell, 99
-language_count, Dockerfile, 52
-language_count, HTML, 50
-language_count, CSS, 46
-language_count, JavaScript, 45
-language_count, Jupyter Notebook, 45
+language_count, Python, 177
+language_count, Shell, 100
+language_count, Dockerfile, 53
+language_count, HTML, 51
+language_count, CSS, 47
+language_count, JavaScript, 46
+language_count, Jupyter Notebook, 46
 language_count, Makefile, 43
 language_count, Java, 32
 language_count, C++, 23
@@ -57,12 +58,12 @@ language_count, Mako, 5
 language_count, Smarty, 5
 language_count, PLpgSQL, 4
 language_count, Dhall, 4
+language_count, Nix, 3
 language_count, NASL, 3
 language_count, Cython, 3
 language_count, Lua, 3
 language_count, Mathematica, 3
 language_count, Rust, 3
-language_count, Nix, 2
 language_count, SourcePawn, 2
 language_count, Julia, 2
 language_count, GLSL, 2
@@ -119,32 +120,32 @@ language_count, Go, 1
 language_count, Jasmin, 1
 mention_citable, yes, 386
 mention_citable, no, 290
-software_repository, github, 239
-software_repository, none, 2
+software_repository, github, 245
 software_repository, gitlab, 2
-software_doi, is citable, 207
-software_doi, not citable, 36
-in_package_manager, no, 220
-in_package_manager, yes, 23
-language_count_abbrev, other, 412
-language_count_abbrev, Python, 171
-language_count_abbrev, Shell, 99
-language_count_abbrev, Jupyter Notebook, 45
-language_count_abbrev, JavaScript, 45
+software_repository, none, 1
+software_doi, is citable, 211
+software_doi, not citable, 37
+in_package_manager, no, 219
+in_package_manager, yes, 29
+language_count_abbrev, other, 416
+language_count_abbrev, Python, 177
+language_count_abbrev, Shell, 100
+language_count_abbrev, Jupyter Notebook, 46
+language_count_abbrev, JavaScript, 46
 language_count_abbrev, Java, 32
 language_count_abbrev, C++, 23
 language_count_abbrev, TypeScript, 20
 language_count_abbrev, C, 16
-software_releases, has releases, 195
+software_releases, has releases, 200
 software_releases, no releases, 48
-software_maintenance_status, active development, 99
-software_maintenance_status, not maintained, 90
-software_maintenance_status, maintenance only, 46
-software_maintenance_status, unknown, 8
-software_license_type, permissive, 220
+software_maintenance_status, active development, 103
+software_maintenance_status, not maintained, 91
+software_maintenance_status, maintenance only, 47
+software_maintenance_status, unknown, 7
+software_license_type, permissive, 225
 software_license_type, copyleft, 23
 software_license_type, other, 7
-software_license, Apache-2.0, 213
+software_license, Apache-2.0, 218
 software_license, GPL-3.0, 10
 software_license, Open Access, 3
 software_license, CC-BY-4.0, 3
