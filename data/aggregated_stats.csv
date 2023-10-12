@@ -17,9 +17,9 @@ mention_types, newspaperArticle, 4
 mention_types, magazineArticle, 1
 mention_types, book, 1
 mention_types, workshop, 1
-software_contributors, small team (2-5), 150
+software_contributors, small team (2-5), 149
 software_contributors, single contributor, 58
-software_contributors, large team (6-20), 36
+software_contributors, large team (6-20), 37
 software_contributors, huge team (20+), 3
 software_contributors, unknown, 1
 package_manager_type, pypi, 25
