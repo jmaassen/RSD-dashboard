@@ -1,17 +1,17 @@
 metric name, value
-total_software_entries, 248
-total_software_releases, 1224
-total_software_maintained, 150
+total_software_entries, 249
+total_software_releases, 1226
+total_software_maintained, 151
 total_mentions, 677
-total_stars, 5114
-total_forks, 1723
-total_issues, 4140
-total_in_package_manager, 30
-total_downloads, 592908
+total_stars, 5119
+total_forks, 1725
+total_issues, 4137
+total_in_package_manager, 31
+total_downloads, 593859
 total_reverse_dependencies, 26
-total_contributors, 976
+total_contributors, 980
 total_participating_organizations, 0
-total_commit_activity, 108550
+total_commit_activity, 108771
 total_programming_languages, 87
 total_software_licenses, 18
 avg_software_lifetime, 3.2
