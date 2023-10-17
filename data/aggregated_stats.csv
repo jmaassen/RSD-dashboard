@@ -37,7 +37,7 @@ language_count, Dockerfile, 53
 language_count, HTML, 51
 language_count, CSS, 47
 language_count, JavaScript, 47
-language_count, Jupyter Notebook, 46
+language_count, Jupyter Notebook, 47
 language_count, Makefile, 44
 language_count, Java, 32
 language_count, C++, 23
@@ -130,8 +130,8 @@ in_package_manager, yes, 31
 language_count_abbrev, other, 420
 language_count_abbrev, Python, 177
 language_count_abbrev, Shell, 101
+language_count_abbrev, Jupyter Notebook, 47
 language_count_abbrev, JavaScript, 47
-language_count_abbrev, Jupyter Notebook, 46
 language_count_abbrev, Java, 32
 language_count_abbrev, C++, 23
 language_count_abbrev, TypeScript, 20
