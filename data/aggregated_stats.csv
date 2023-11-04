@@ -140,9 +140,9 @@ language_count_abbrev, TypeScript, 20
 language_count_abbrev, C, 16
 software_releases, has releases, 204
 software_releases, no releases, 47
-software_maintenance_status, active development, 102
+software_maintenance_status, active development, 101
 software_maintenance_status, not maintained, 92
-software_maintenance_status, maintenance only, 49
+software_maintenance_status, maintenance only, 50
 software_maintenance_status, unknown, 8
 software_license_type, permissive, 227
 software_license_type, copyleft, 24
