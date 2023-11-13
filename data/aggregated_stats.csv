@@ -1,5 +1,5 @@
 name, label, value
-mention_types, journalArticle, 272
+mention_types, journalArticle, 273
 mention_types, presentation, 131
 mention_types, other, 48
 mention_types, webpage, 38
@@ -119,7 +119,7 @@ language_count, SCSS, 1
 language_count, PureBasic, 1
 language_count, Go, 1
 language_count, Jasmin, 1
-mention_citable, yes, 387
+mention_citable, yes, 388
 mention_citable, no, 291
 software_repository, github, 247
 software_repository, gitlab, 2
