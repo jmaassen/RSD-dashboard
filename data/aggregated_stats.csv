@@ -32,7 +32,7 @@ package_manager_type, cran, 1
 software_mentions, no mentions, 135
 software_mentions, has mentions, 117
 language_count, Python, 178
-language_count, Shell, 102
+language_count, Shell, 103
 language_count, Dockerfile, 53
 language_count, HTML, 51
 language_count, Jupyter Notebook, 49
@@ -131,7 +131,7 @@ in_package_manager, no, 220
 in_package_manager, yes, 32
 language_count_abbrev, other, 423
 language_count_abbrev, Python, 178
-language_count_abbrev, Shell, 102
+language_count_abbrev, Shell, 103
 language_count_abbrev, Jupyter Notebook, 49
 language_count_abbrev, JavaScript, 47
 language_count_abbrev, Java, 32
