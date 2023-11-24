@@ -142,8 +142,8 @@ language_count_abbrev, C, 16
 software_releases, has releases, 206
 software_releases, no releases, 47
 software_maintenance_status, active development, 102
-software_maintenance_status, not maintained, 83
-software_maintenance_status, maintenance only, 60
+software_maintenance_status, not maintained, 81
+software_maintenance_status, maintenance only, 62
 software_maintenance_status, unknown, 8
 software_license_type, permissive, 229
 software_license_type, copyleft, 24
